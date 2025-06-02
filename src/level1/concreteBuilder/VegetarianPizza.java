@@ -8,17 +8,17 @@ public class VegetarianPizza implements PizzaBuilder {
 
     @Override
     public void buildSize() {
-
+    System.out.println("Adding vegetarian size...");
     }
 
     @Override
     public void buildDough() {
-
+    System.out.println("Adding vegetarian dough...");
     }
 
     @Override
     public void buildToppings() {
-
+    System.out.println("Adding vegetarian toppings...");
     }
 
     @Override

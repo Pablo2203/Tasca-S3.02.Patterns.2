@@ -8,17 +8,17 @@ public class HawaiianPizza implements PizzaBuilder {
 
     @Override
     public void buildSize() {
-
+    System.out.println("Adding Hawaiian size...");
     }
 
     @Override
     public void buildDough() {
-
+    System.out.println("Adding Hawaiian dough...");
     }
 
     @Override
     public void buildToppings() {
-
+    System.out.println("Adding Hawaiian toppings...");
     }
 
     @Override

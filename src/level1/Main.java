@@ -20,7 +20,11 @@ public class Main {
         MestrePizzer mestrePizzer3 = new MestrePizzer(pepperoniPizza);
 
         Pizza pizzaA = mestrePizzer.prepareAPizza();
+        System.out.println("-------------------------");
+
         Pizza pizzaB = mestrePizzer2.prepareAPizza();
+        System.out.println("-------------------------");
+
         Pizza pizzaC = mestrePizzer3.prepareAPizza();
 
 
